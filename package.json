@@ -13,7 +13,6 @@
     "css-loader": "^0.26.1",
     "dapps-react-ui": "0.0.684",
     "expose-loader": "^0.7.1",
-    "jquery": "^2.2.4",
     "json-loader": "^0.5.4",
     "oo7": "^0.1.1",
     "oo7-parity": "^0.1.1",
@@ -43,11 +42,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethcore/daoclaim.git"
+    "url": "git+https://github.com/ethcore/skeleton.git"
   },
-  "keywords": [],
+  "keywords": ["Dapp", "Parity", "Reactive", "Template"],
   "author": "Parity Technologies Ltd",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ethcore/skeleton/issues"
   },
