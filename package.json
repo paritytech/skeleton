@@ -14,10 +14,16 @@
     "dapps-react-ui": "0.0.684",
     "expose-loader": "^0.7.1",
     "json-loader": "^0.5.4",
+
+
+
     "oo7": "^0.1.1",
     "oo7-parity": "^0.1.1",
     "oo7-react": "^0.1.1",
     "parity-reactive-ui": "^0.1.1",
+
+
+
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-timeago": "^3.0.0",

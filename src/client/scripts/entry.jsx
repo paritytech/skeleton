@@ -14,5 +14,6 @@ injectTapEventPlugin();
 
 // We use and dirty up the global namespace here.
 parity.bonds = setupBonds(parity.api);
+parity.bonds.block = parity.api.eth.getBlockByNumber.bond(parity.bonds.blockNumber);
 
 render(<MuiThemeProvider><App/></MuiThemeProvider>, document.getElementById('app'));

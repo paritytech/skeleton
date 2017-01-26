@@ -5,3 +5,7 @@ body {
 
 div#app {
 }
+
+img._accountIcon {
+	border-radius: 50%;
+}
