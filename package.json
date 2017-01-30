@@ -20,7 +20,7 @@
     "oo7": "file:../oo7",
     "oo7-parity": "file:../oo7-parity",
     "oo7-react": "file:../oo7-react",
-    "parity-reactive-ui": "../parity-reactive-ui",
+    "parity-reactive-ui": "file:../parity-reactive-ui",
 
 
 

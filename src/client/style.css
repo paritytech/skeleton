@@ -9,3 +9,8 @@ div#app {
 img._accountIcon {
 	border-radius: 50%;
 }
+
+span._hash {
+	font-family: monospace;
+	font-size: small;
+}

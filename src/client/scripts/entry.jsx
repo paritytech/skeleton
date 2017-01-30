@@ -22,13 +22,6 @@ const OperationsABI = [{"constant":false,"inputs":[{"name":"_client","type":"byt
 injectTapEventPlugin();
 
 // Polyfills for parity.js
-parity.api.util.abiEncode = function(name, types, data) {
-	let r = parity.api.util.encodeMethodCall(name || '', types, data);
-	return name === null ? `0x${r.substr(10)}` : r;
-};
-parity.api.util.abiDecode = function (types, data) {
-	return parity.api.util.decodeMethodInput({inputs: types.map(t => {return {type: t};})}, data);
-};
 parity.api.abi = {
 	registry: RegistrarABI,
 	registryExtras: RegistryExtras,
