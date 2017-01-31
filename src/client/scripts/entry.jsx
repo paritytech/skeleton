@@ -4,7 +4,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import {setDefaultTransformBondContext, TransformBond} from 'oo7';
-import {setupBonds, polyfill} from 'oo7-parity';
+import {setupBonds, abiPolyfill} from 'oo7-parity';
 
 import {App} from './app.jsx'
 
@@ -13,7 +13,7 @@ import {App} from './app.jsx'
 injectTapEventPlugin();
 
 // Polyfills for parity.js
-polyfill();
+parity.api.abi = abiPolyfill();
 
 // We use and dirty up the global namespace here.
 parity.bonds = setupBonds(parity.api);
