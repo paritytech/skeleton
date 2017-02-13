@@ -1,17 +1,20 @@
 # Skeleton dapp.
 
-To install:
+## Installation
 
-```
-$ npm install
-$ npm install -g webpack
+```sh
+git clone https://github.com/ethcore/skeleton
+cd skeleton
+git remote rm origin
+
+npm install
 ```
 
-To build:
+## Usage
 
-```
-webpack --watch
+```sh
+npm run build # build app for production
+npm start # run dev environment
 ```
 
 Files will be build into `dist/`. Just symlink that dir into your dapps path.
-
