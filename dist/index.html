@@ -5,6 +5,10 @@
 	<title>Skeleton</title>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<script src="/parity-utils/parity.js"></script>
+	<script>
+	window.parity.api._transport._connectTimeout = -1;
+	window.parity.api._subscriptions.subscribe = () => Promise.resolve(1);
+	</script>
 </head>
 <body>
 	<div id="app"></div>

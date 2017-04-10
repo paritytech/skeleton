@@ -1,6 +1,6 @@
 {
   "name": "skeleton",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Skeleton dapp",
   "main": "webpack.config.js",
   "dependencies": {
