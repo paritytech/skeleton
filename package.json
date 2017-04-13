@@ -1,6 +1,6 @@
 {
   "name": "skeleton",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Skeleton dapp",
   "main": "webpack.config.js",
   "dependencies": {
@@ -17,10 +17,10 @@
 
 
 
-    "oo7": "^0.2.0",
-    "oo7-parity": "^0.3.1",
-    "oo7-react": "^0.2.0",
-    "parity-reactive-ui": "^0.2.2",
+    "oo7": "^0.3.0",
+    "oo7-parity": "^0.4.1",
+    "oo7-react": "^0.3.0",
+    "parity-reactive-ui": "^0.3.0",
 
 
 
