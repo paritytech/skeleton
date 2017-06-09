@@ -3,7 +3,7 @@
 To install:
 
 ```
-$ npm install
+$ ./init.sh
 $ npm install -g webpack
 ```
 
